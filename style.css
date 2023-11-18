@@ -1,0 +1,65 @@
+*{padding: 0;
+margin: 0;}
+
+body{font-family: 'Gabarito', sans-serif;
+    font-family: 'Young Serif', serif;}
+
+    .navbar{display: flex;
+    padding: 10px;
+justify-content: space-between;
+border-bottom: solid black 1px;
+gap: 10px; align-items: center;position: sticky;top: 0;background-color: white;z-index: 1;}
+
+.navbar__2{padding: 10px ; border: solid black 1px; border-radius: 30px;width: 60%;display: flex;align-items: center;}
+
+.navbar__2 input{border: none;width:100%;color: transparent;}
+
+.navbar__2 input :focus{outline: none;}
+
+.navbar__3{display: flex;
+gap: 10px; align-items: center;}
+
+.mylearning{position: relative;cursor: pointer;}
+
+.mylearning__popup{position: absolute;background-color: white;border: solid black 1px;width: 100px;top: 150%;padding: 20px;right: 0;display: none}
+
+.mylearning:hover .mylearning__popup{display: block;}
+
+.cart{display: flex;padding: 10px;border-bottom:solid black 1px ;justify-content: space-around;}
+
+.cart p{background-color: palevioletred;color: white;padding: 10px;border-radius: 30px;}
+
+.sale img{width: 99%;}
+
+.sale{position: relative;}
+
+.sale__offer{position: absolute;top: 100px;left: 10%;border: solid black 2px;padding: 50px;}
+
+
+.good{padding: 10px;}
+
+.good__container{ display: flex;justify-content: space-between;margin-top: 10px;}
+
+
+.course__card{width: 25%;}
+
+.course__card img{height: 50%; width: 80%;}
+
+.topic{padding: 10px;}
+
+.topic__container{display: flex;gap: 10px;margin-top: 10px;flex-wrap: wrap;}
+
+.topic__container p{border: solid gray 2px; padding: 10px;flex-grow: 1;flex-basis: 25%;}
+
+.popular{padding: 10px;}
+
+.popoular__container{display: flex;flex-wrap: wrap;justify-content: space-between;margin-top: 10px;}
+
+.footer{padding: 30px;background-color: black;color: white;}
+
+.footer__1{display: flex; gap: 10px;}
+
+.footer__1 p{margin: 20px;}
+
+
+.footer__2{align-items: center;}
