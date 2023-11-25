@@ -88,10 +88,7 @@ border: solid palevioletred 2px;
 .footer__2{align-items: center;}
 
 @media screen and (max-width:800px) {
-
-body{
-    font-size: 10px;
-}
+body{ font-size: 10px;}
 }
 
 @media screen and (max-width:500px) {
@@ -107,7 +104,7 @@ body{
 .navbar__2,.navbar__3{display: none;}
 
 .navbar__4{display: block;}
-.sale__offer{position: absolute;top: 3%;left: 10%;border: solid black 2px;padding:2%;animation: zoom;animation-duration: 2s;opacity: 0;animation-fill-mode: forwards;width: 35%;height:55%}
+.sale__offer{top: 3%;height:55%}
 
 }
 
