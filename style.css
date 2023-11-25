@@ -70,6 +70,8 @@ border: solid palevioletred 2px;
 
 .topic{padding: 10px;}
 
+.topic__title{margin: 8px;}
+
 .topic__container{display: flex;gap: 10px;margin-top: 10px;flex-wrap: wrap;}
 
 .topic__container p{border: solid gray 2px; padding: 10px;flex-grow: 1;flex-basis: 25%;}
